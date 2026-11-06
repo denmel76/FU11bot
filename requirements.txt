@@ -1,0 +1,6 @@
+--only-binary=:all:
+fastapi==0.104.1
+uvicorn==0.24.0
+aiogram==3.15.0
+aiohttp
+pydantic
