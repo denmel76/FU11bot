@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from config import TG_BOT_TOKEN, TG_ADMIN_ID
 import logging
 from aiogram import Bot
 from aiogram.types import ChatPermissions
