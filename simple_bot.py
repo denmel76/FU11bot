@@ -1,9 +1,11 @@
 import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
-from config import TG_BOT_TOKEN
 
-bot = Bot(token=TG_BOT_TOKEN)
+# Токен вписан напрямую, чтобы не зависеть от config.py
+BOT_TOKEN = "9156594719:AAEv56NLlQaeq7RafJtHBBEVctpsvwEpnVQ"
+
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
 @dp.message(Command("start"))
